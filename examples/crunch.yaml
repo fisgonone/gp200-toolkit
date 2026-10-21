@@ -1,0 +1,26 @@
+# Classic rock crunch: Tube Screamer style drive into a JCM800 style amp.
+name: Crunch 800
+tempo: 120
+volume: 50
+
+slots:
+  NR:
+    effect: Gate 1
+    Threshold: 25
+  DST:
+    effect: Scream OD
+    Gain: 25
+    Tone: 55
+    Volume: 70
+  AMP:
+    effect: UK 800
+    Gain: 55
+    Presence: 55
+    Bass: 50
+    Middle: 60
+    Treble: 55
+  CAB:
+    effect: auto
+  RVB:
+    effect: Spring
+    Mix: 18

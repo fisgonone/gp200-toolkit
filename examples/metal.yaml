@@ -1,0 +1,30 @@
+# Tight modern metal: gated 5150 style amp with a mid scoop.
+name: Modern Metal
+tempo: 140
+volume: 50
+
+slots:
+  NR:
+    effect: Gate 2
+    Threshold: 45
+    Attack: 10
+    Release: 40
+  DST:
+    effect: Green OD
+    Gain: 0
+    Tone: 60
+    Volume: 80
+  AMP:
+    effect: EV 51
+    Gain: 65
+    Bass: 55
+    Middle: 40
+    Treble: 60
+    Presence: 60
+  CAB:
+    effect: auto
+  EQ:
+    effect: Guitar EQ 1
+    400Hz: -6
+    800Hz: -4
+    4kHz: 3

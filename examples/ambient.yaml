@@ -1,0 +1,27 @@
+# Ambient pad: clean amp, slow chorus, long tape echo and shimmer.
+name: Ambient Pad
+tempo: 90
+volume: 50
+
+slots:
+  AMP:
+    effect: Dark Twin
+    Gain: 20
+    Treble: 55
+  CAB:
+    effect: auto
+  MOD:
+    effect: G-Chorus
+    Depth: 60
+    Rate: 0.4
+  DLY:
+    effect: Tape Delay S
+    Mix: 35
+    Time: 600
+    Feedback: 45
+    Trail: ON
+  RVB:
+    effect: Shimmer
+    Mix: 45
+    Decay: 80
+    Trail: ON

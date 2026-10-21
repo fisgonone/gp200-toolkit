@@ -1,0 +1,40 @@
+# Singing lead: boosted Soldano style amp, dotted-eighth delay, big hall.
+name: Lead Shimmer
+tempo: 120
+volume: 55
+
+slots:
+  NR:
+    effect: Gate 2
+    Threshold: 30
+  DST:
+    effect: Green OD
+    Gain: 20
+    Tone: 60
+    Volume: 75
+  AMP:
+    effect: Solo100 LD
+    Gain: 60
+    Presence: 55
+    Middle: 60
+  CAB:
+    effect: auto
+  DLY:
+    effect: Pure
+    Sync: ON
+    Time: 1/8D            # follows the patch tempo
+    Feedback: 30
+    Mix: 22
+    Trail: ON
+  RVB:
+    effect: Hall
+    Mix: 25
+    Decay: 55
+    Trail: ON
+
+exp:
+  exp1_a: [{module: VOL, param: Volume, min: 0, max: 100}]
+  exp1_b: [{module: DLY, param: Mix, min: 10, max: 50}]
+
+ctrl:
+  CTRL1: [DST]            # footswitch CTRL1 toggles the overdrive

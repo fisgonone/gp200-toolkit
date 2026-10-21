@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+# Valeton's original file; regenerate the catalog from your own editor install
+data/source/
+*.prst
+!tests/fixtures/*.prst

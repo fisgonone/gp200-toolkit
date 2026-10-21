@@ -1,0 +1,23 @@
+# Sparkly clean: '65 Twin style amp with light compression and a room.
+name: Clean Twin
+tempo: 120
+volume: 50
+
+slots:
+  PRE:
+    effect: COMP
+    Sustain: 35
+    Volume: 55
+  AMP:
+    effect: Dark Twin
+    Gain: 30
+    Bass: 45
+    Middle: 50
+    Treble: 62
+    Bright: ON
+  CAB:
+    effect: auto          # the cabinet that matches the amp (Dark Twin 2x12)
+  RVB:
+    effect: Room
+    Mix: 25
+    Decay: 40
